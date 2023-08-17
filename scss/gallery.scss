@@ -1,0 +1,24 @@
+.gallery {
+	display: flex;
+	transition: .3s;
+	
+	&__image {
+		display: block;
+		width: 100%;
+		transition: .3s;
+		
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+figure	{
+	box-shadow: -1rem 0 2rem rgb(37, 37, 37);
+}
+
+@media screen and (max-width: 576px) {  
+	.image-back-gallery {
+		background-image: url(/assets/img/back-radiohead-1.jpg);
+	}
+}

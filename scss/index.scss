@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Nunito';
+}
+
+.image-back {
+    background-image: url(/assets/img/kid-vertical.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image-back-gallery {
+    background-image: url(/assets/img/back-radiohead.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image-back-tour {
+    background-image: url(/assets/img/show-radiohead.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image-back-contact {
+    background-image: url(/assets/img/dibujo-radiohead-wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    height: 3.2rem;
+    border-bottom: 1.8px solid white;
+}
+
+hr {
+    height: 5rem;
+    background:url(../assets/img/logoseparador.png) no-repeat center;
+    border: none;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #ff192c;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff192c;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.color {
+    color: #ff192c;
+}
+
+.color-white {
+    color: white
+}
+
+.color-black {
+    color: black
+}
+
+.section-index {
+    width: 55rem;
+    .div-box-img {
+        background-size: cover;
+        border: solid 1px white;
+        margin-bottom: 0.5rem;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+.button-container{
+    text-align: center;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.button-anim:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    animation-name: efecto-button;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+li {
+    width: 30;
+    position:relative;
+    font-size: 0.95rem
+}
+
+li:hover {
+    font-size: 1.05rem;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display:block;
+}
+
+button {
+    font-family: 'Nunito';
+    background: white;
+    color: black;
+    font-size: 1.4rem;
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+footer {
+    color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+
+i {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.margin-i {
+    margin-left: 2.5rem;
+}
+
+i:hover {
+    font-size: 1.6rem;
+}
+
+footer i {
+    color: black;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    font-size: 1.7rem;
+}
+
+.footer-image {
+    background-image: url(../assets/img/amnesiac-1-wallpaper.png);
+    background-size: cover;
+	background-position: bottom;
+	height:16rem;
+	max-width: 100%;
+}
+
+.flex-footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#padding-icon {
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+header {
+    animation-name: efecto-fondo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+/**
+RESPONSIVE
+*/
+
+@media screen and (max-width: 768px) {  
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    } 
+
+    hr {
+        height: 3rem;
+        background:url(../assets/img/logoseparador1.png) no-repeat center;
+        border: none;
+    }
+
+    ul, li {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+    
+    .button-container{
+        text-align: center;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    i {
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 0.2rem;
+    }
+    
+    i:hover {
+        font-size: 1.7rem;
+    }
+
+    footer i {
+        color: black;
+        font-size: 1.6rem;
+    }
+    
+    footer i:hover {
+        font-size: 1.7rem;
+    }
+
+    #padding-icon {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {  
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        font-size: 0.7;
+    }
+
+    footer {
+        margin-top: 3rem;
+    }
+}
+
+@keyframes efecto-button {
+    0% {color:#ff192c}
+    100% {color:white}
+}
+
+@keyframes efecto-fondo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -1,0 +1,35 @@
+form {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: -0.5rem 0 0.8rem rgb(238, 52, 39);
+}
+
+.form-group:hover {
+    scale: calc(1.01)
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+
+}
+
+@media screen and (min-width: 575px) and (max-width: 766px) {  
+    .image-back-contact {
+        background-image: url(/assets/img/dibujo-radiohead-wallpaper-1.jpg);
+    }
+}
+
+@media screen and (max-width: 574px) {  
+    form {
+        max-width: 300px;
+    }
+
+    .image-back-contact {
+        background-image: url(/assets/img/dibujo-radiohead-wallpaper-1.jpg);
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "proyectofinal-desarrolloweb-coderhouse",
+  "version": "1.0.0",
+  "description": "Este es el proyecto final del curso de Desarrollo Web realizado en CoderHouse, realizo un sitio web basado en la banda musical RadioHead",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzequielBosco/ProyectoFinal-DesarrolloWeb-CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzequielBosco/ProyectoFinal-DesarrolloWeb-CoderHouse/issues"
+  },
+  "homepage": "https://github.com/EzequielBosco/ProyectoFinal-DesarrolloWeb-CoderHouse#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,86 @@
+#fondo-discography {
+  background-image: url(../assets/img/dibujo-radiohead-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height:20rem;
+  max-width: 100%;
+  position: relative
+}
+
+iframe {
+  border: none;
+  height: 12rem;
+}
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1rem 0 1.2rem rgb(238, 52, 39);
+    transition: 0.3s ease-out;
+  }
+
+  a {
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease-out;
+  }
+  
+  svg {
+    fill: none;
+    stroke-width: 2px;
+  }
+
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.4s ease-out;
+  }
+  
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 60px);
+  }
+
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+  .margin-i {
+    margin-left: 0.7rem;
+  }
+
+  li {
+    font-size: 0.95rem;
+  }
+
+  li:hover {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {  
+  .card {
+    height: 200px;
+    width: 150px;
+  }
+
+  iframe {
+    border: none;
+    height: 22rem;
+  }
+}

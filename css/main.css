@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black;
+  font-family: 'Nunito'; }
+
+.image-back {
+  background-image: url(/assets/img/kid-vertical.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.image-back-gallery {
+  background-image: url(/assets/img/back-radiohead.png);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.image-back-tour {
+  background-image: url(/assets/img/show-radiohead.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.image-back-contact {
+  background-image: url(/assets/img/dibujo-radiohead-wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+nav {
+  height: 3.2rem;
+  border-bottom: 1.8px solid white; }
+
+hr {
+  height: 5rem;
+  background: url(../assets/img/logoseparador.png) no-repeat center;
+  border: none;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem; }
+
+h1 {
+  font-size: 2.4rem;
+  color: #ff192c; }
+
+h2 {
+  font-size: 2rem;
+  color: #ff192c; }
+
+h3 {
+  font-size: 1rem; }
+
+.color {
+  color: #ff192c; }
+
+.color-white {
+  color: white; }
+
+.color-black {
+  color: black; }
+
+.section-index {
+  width: 55rem; }
+  .section-index .div-box-img {
+    background-size: cover;
+    border: solid 1px white;
+    margin-bottom: 0.5rem;
+    height: auto;
+    overflow: hidden; }
+
+.button-container {
+  text-align: center;
+  position: relative;
+  bottom: 2.5rem; }
+
+.button-anim:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+  animation-name: efecto-button;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease; }
+
+ul {
+  list-style: none;
+  font-size: 1rem; }
+
+li {
+  width: 30;
+  position: relative;
+  font-size: 0.95rem; }
+
+li:hover {
+  font-size: 1.05rem; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block; }
+
+button {
+  font-family: 'Nunito';
+  background: white;
+  color: black;
+  font-size: 1.4rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem; }
+
+footer {
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 5rem;
+  margin-top: 5rem; }
+
+i {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem; }
+
+.margin-i {
+  margin-left: 2.5rem; }
+
+i:hover {
+  font-size: 1.6rem; }
+
+footer i {
+  color: black;
+  font-size: 1.6rem; }
+
+footer i:hover {
+  font-size: 1.7rem; }
+
+.footer-image {
+  background-image: url(../assets/img/amnesiac-1-wallpaper.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 16rem;
+  max-width: 100%; }
+
+.flex-footer-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-bottom: 2rem; }
+
+#padding-icon {
+  margin-left: 25rem;
+  margin-right: 25rem; }
+
+header {
+  animation-name: efecto-fondo;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease; }
+
+section {
+  margin-top: 3rem; }
+
+/**
+RESPONSIVE
+*/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem; }
+  h2 {
+    font-size: 1.7rem; }
+  h3 {
+    font-size: 0.9rem; }
+  h4 {
+    font-size: 0.8rem; }
+  h5 {
+    font-size: 0.8rem; }
+  hr {
+    height: 3rem;
+    background: url(../assets/img/logoseparador1.png) no-repeat center;
+    border: none; }
+  ul, li {
+    font-size: 1rem; }
+  button {
+    font-size: 1rem; }
+  .button-container {
+    text-align: center;
+    position: relative;
+    bottom: 1rem; }
+  i {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.2rem; }
+  i:hover {
+    font-size: 1.7rem; }
+  footer i {
+    color: black;
+    font-size: 1.6rem; }
+  footer i:hover {
+    font-size: 1.7rem; }
+  #padding-icon {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  p {
+    font-size: 0.9rem; }
+  footer {
+    margin-top: 3rem; } }
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem; }
+  h2 {
+    font-size: 1.1rem; }
+  h3 {
+    font-size: 0.8rem; }
+  h4 {
+    font-size: 0.7; }
+  footer {
+    margin-top: 3rem; } }
+
+@keyframes efecto-button {
+  0% {
+    color: #ff192c; }
+  100% {
+    color: white; } }
+
+@keyframes efecto-fondo {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#fondo-discography {
+  background-image: url(../assets/img/dibujo-radiohead-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 20rem;
+  max-width: 100%;
+  position: relative; }
+
+iframe {
+  border: none;
+  height: 12rem; }
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: -1rem 0 1.2rem #ee3427;
+  transition: 0.3s ease-out; }
+
+a {
+  cursor: pointer; }
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-out; }
+
+svg {
+  fill: none;
+  stroke-width: 2px; }
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.4s ease-out; }
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 60px); }
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .margin-i {
+    margin-left: 0.7rem; }
+  li {
+    font-size: 0.95rem; }
+  li:hover {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 576px) {
+  .card {
+    height: 200px;
+    width: 150px; }
+  iframe {
+    border: none;
+    height: 22rem; } }
+
+.box-carousel {
+  position: relative;
+  margin-right: 0.1rem;
+  background-color: white;
+  padding: 1px; }
+
+.flex-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.card-anim:hover {
+  scale: calc(1.3); }
+
+.title-imagen {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 5rem; }
+
+#names-size h2 {
+  font-size: 3.5rem; }
+
+#names-size p {
+  font-size: 1.5rem; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #margin-discography {
+    margin-bottom: 25rem; }
+  #names-size h2 {
+    font-size: 2.5rem; }
+  #names-size p {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 576px) {
+  #margin-discography {
+    margin-bottom: 12rem; }
+  .title-imagen {
+    top: 1%; } }
+
+.card-tour {
+  height: 80px;
+  width: 1000px;
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: -0.7rem 0 0.8rem #ee3427; }
+
+.card-tour:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-out; }
+
+.button-tour {
+  background: black;
+  color: white;
+  font-size: 1.4rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem; }
+
+.button-tour:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+  animation-name: efecto-tour-button;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease; }
+
+th {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+tr {
+  padding-top: 1.5rem;
+  padding: 1.5rem;
+  border: 0;
+  display: block;
+  margin: 5px; }
+
+@keyframes efecto-tour-button {
+  0% {
+    color: #ff192c; }
+  100% {
+    color: white; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-tour {
+    height: 130px;
+    width: 600px; }
+  th {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .button-tour {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 575px) and (max-width: 766px) {
+  .card-tour {
+    height: 120px;
+    width: 600px; }
+  h4 {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 574px) {
+  .card-tour {
+    margin-top: none;
+    height: 80px;
+    width: 270px; }
+  #font-size-card {
+    font-size: 0.9rem; }
+  tr {
+    padding-top: 1.2em;
+    padding: 1rem; }
+  th {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem; }
+  #padding-tour-title {
+    padding-left: 3.8rem; }
+  .button-tour {
+    font-size: 0.8rem; } }
+
+.gallery {
+  display: flex;
+  transition: .3s; }
+  .gallery__image {
+    display: block;
+    width: 100%;
+    transition: .3s; }
+    .gallery__image:hover {
+      transform: scale(1.1); }
+
+figure {
+  box-shadow: -1rem 0 2rem #252525; }
+
+@media screen and (max-width: 576px) {
+  .image-back-gallery {
+    background-image: url(/assets/img/back-radiohead-1.jpg); } }
+
+form {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: -0.5rem 0 0.8rem #ee3427; }
+
+.form-group:hover {
+  scale: calc(1.01); }
+
+@media screen and (min-width: 575px) and (max-width: 766px) {
+  .image-back-contact {
+    background-image: url(/assets/img/dibujo-radiohead-wallpaper-1.jpg); } }
+
+@media screen and (max-width: 574px) {
+  form {
+    max-width: 300px; }
+  .image-back-contact {
+    background-image: url(/assets/img/dibujo-radiohead-wallpaper-1.jpg); } }
